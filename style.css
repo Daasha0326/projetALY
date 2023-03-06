@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+.content{
+ height: 120vh;
+ border: black solid 2px;
+ width: 100%;
+ font-family: 'Montserrat', sans-serif;
+ background-color: white;
+}
+
+/*_________________________________________________________________________________________________________*/
+
+.content >div:nth-child(1)
+{
+    height: 25vh;
+    width: 100%;
+}
+.content >div:nth-child(1) >div:nth-child(1)
+{
+    background-color:  #1E1F29;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 0.7em;
+}
+.content >div:nth-child(1) >div:nth-child(1) >div:nth-child(1)
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 20rem;
+    gap: 5em;
+}
+.content >div:nth-child(1) >div:nth-child(1) >div:nth-child(2)
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 28rem;
+    gap: 5em;
+}
+
+.content >div:nth-child(1) >div:nth-child(2)
+{
+    background-color: black;
+    height: 50%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 6rem;
+}
+.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(1)
+{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 20rem;
+    width: 33%;
+}
+.content >div:nth-child(1) >div:nth-child(2) >div:nth-child(2)
+{
+    width: 30%;
+    border-radius: 6em;
+    background-color: white;
+    margin-left: -25rem;
+    height: 2.7em;
+}
+
+
+.content >div:nth-child(1) >div:nth-child(3)
+{
+    background-color: white;
+    height: 30%;
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    color: black;
+    font-size: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: lightgray solid 2px;
+}
+.content >div:nth-child(1) >div:nth-child(3) >div:nth-child(1)
+{
+    text-decoration: underline red;
+}
+
+
+/*_________________________________________________________________________________________________________*/
+
+.content >div:nth-child(2)
+{
+    height: 45vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+.content >div:nth-child(2) >div:nth-child(1)
+{
+    display: flex;
+    height: 250px;
+    margin-right: 5rem;
+    width: 50%;
+    margin-left: 30rem;
+}
+.couleurB
+{
+    position: absolute;
+    background-color: #D20024;
+    width: 110%;
+    height: 200%;
+    transform: rotate(27deg) translate(-199px,-68px);
+    background-color: hsla(0, 95%, 49%, 0.696);
+}
+.texteB
+{
+    position: absolute;
+    left: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+.couleurA
+{
+    position: absolute;
+    background-color: #D20024;
+    width: 110%;
+    height: 200%;
+    transform: rotate(27deg) translate(-199px,-68px);
+    background-color: hsla(0, 95%, 49%, 0.696);
+}
+.texteA
+{
+    position: absolute;
+    left: 2rem;
+    color: white;
+}
+.couleurC
+{
+    position: absolute;
+    background-color: #D20024;
+    width: 110%;
+    height: 200%;
+    transform: rotate(27deg) translate(-199px,-68px);
+    background-color: hsla(0, 95%, 49%, 0.696);
+}
+.texteC
+{
+    position: absolute;
+    left: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+.content >div:nth-child(2) >div:nth-child(1) >div:nth-child(1)
+{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+.content >div:nth-child(2) >div:nth-child(1) >div:nth-child(2)
+{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+.content >div:nth-child(2) >div:nth-child(1) >div:nth-child(3)
+{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+.texten
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20rem;
+}
+.av
+{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.ap
+{
+    display: flex;
+    color: lightslategray;
+    gap: 2rem;
+    margin-top: 50px;
+}
+.ap1
+{
+    color: red;
+    text-decoration: underline;
+}
+
+
+/*_______________________________________________________________________________________________________*/
+
+.ef3
+{
+    width: 60%;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.p1
+{
+    display: flex;
+    padding: 2rem;
+    position: relative;
+    flex: 1;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.imag
+{
+    width: 85%;
+    
+}
+.p11
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.a1
+{
+    font-size: 0.6rem;
+    color: lightslategray;
+}
+.bold
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.A1
+{
+    color: red;
+}
+.star
+{
+    color: red;
+    margin-bottom: 1.5rem;
+}
+.trait
+{
+    border: 1px groove lightgray;
+    width: 60px;
+    
+}
